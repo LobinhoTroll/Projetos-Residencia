@@ -5,11 +5,11 @@ using namespace std;
 
 int main(void){
 
-char nome;
+string nome;
 
 cout << "Digite seu nome: ";
 cin >> nome;
-cout << "Bom dia" << nome;
+cout << "Bom dia " << nome;
 
 return 0;
 }
