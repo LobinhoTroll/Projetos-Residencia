@@ -16,6 +16,6 @@ cout << "Soma: " << a + b << endl;
 cout << "Subtração: " << a - b << endl;
 cout << "Multiplicação: " << a + b << endl;
 cout << "Divisão: " << a / b << endl;
-cout << "Resto: " << a % b;
+cout << "Resto: ";
 return 0;
 }
