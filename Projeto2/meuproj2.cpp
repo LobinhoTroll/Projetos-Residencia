@@ -5,7 +5,8 @@ using namespace std;
 
 int main(void){
 
-float a,b;
+float a = 5;
+int b = 3;
 
 cout << "Digite dois numeros inteiros:" << endl;
 cin >> a;
@@ -16,6 +17,5 @@ cout << "Soma: " << a + b << endl;
 cout << "Subtração: " << a - b << endl;
 cout << "Multiplicação: " << a + b << endl;
 cout << "Divisão: " << a / b << endl;
-cout << "Resto: ";
 return 0;
 }
