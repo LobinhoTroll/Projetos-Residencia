@@ -1,0 +1,15 @@
+Extenções instaladas:
+1) C/C++
+2) C/C++ Compile Run
+3) C/C++ Extension Pack
+4) C?C++ Themes
+5) CMake
+6) CMake Tools
+7) Draula Official 
+
+Instalei o Prettier- Code formatter que embora não vá ser utilizado neste primeiro momento ele é muito util para organizar códigos menores
+ja que ele consegue formatalos para uma estrutura mais eficiente sem alterar oque foi feito pelo usuario.
+
+Com relação ao tema instalei o Dracula(que por acaso eu ja utilizava) para configuralos foi bem simples ja que o proprio VScode da a opção
+de selecionar um pré-sett(no meu caso utilizo o modern ja que o fundo preto é melhor para enchergar e dá um melhor contraste com as coutras
+cores). 
