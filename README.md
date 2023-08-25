@@ -6,3 +6,7 @@ TIC18**.
 ## Objetivo
 Conhecer os comandos básicos e algumas recomendações
 para o uso do Git e do Github.
+
+## Teste de criação de branch secundaria
+criei a 2 banch
+Teste para synch da branch
