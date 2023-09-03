@@ -9,7 +9,7 @@ string nome;
 
 cout << "Digite seu nome: ";
 cin >> nome;
-cout << "Bom dia " << nome;
+cout << "Bom dia " << nome << endl;
 
 return 0;
 }
