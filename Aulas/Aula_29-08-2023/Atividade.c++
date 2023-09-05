@@ -26,6 +26,7 @@ for(int i = '0'; i <= '9'; i++){
 
 cout << hex << "Caractere " << char(i) << " em hexadecimal = " << i << "\n";
 }
+cout << dec;
 
 cout << "\n";
 
