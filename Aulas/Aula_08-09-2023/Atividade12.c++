@@ -22,6 +22,8 @@ for (int u = 0; u < 20; u++){
     }
 }
 
+cout << "Numeros gerados:\n";
+cout << endl;
 for (int i = 0; i < 100; i++)
 {
     if (i < 99){
@@ -32,18 +34,22 @@ for (int i = 0; i < 100; i++)
             }
     
 }
+cout << endl;
 
-
+cout << "Numeros e suas repetições:\n";
+cout << endl;
 for (int i = 0; i < 20; i++)
 {
-    if (i < 19){
-       cout << totals[i] << ",";
+    if (i < 19)
+    {
+        cout << i + 1 << "--" << totals[i] << ",";
     }
         else{
-            cout << totals[i] << "." << endl;
-            }
-    
+            cout << i + 1 << "--" << totals[i] << ".\n";
+        }
 }
+cout << endl;
+
 int maior = totals[0];
 int menor = totals[0];
 
@@ -52,24 +58,18 @@ for (int i = 0; i < 20; ++i){
         if (totals[i] < menor) menor = totals[i];
 }
 
-cout << "Maior valor: " << maior << endl;
-cout << "Menor valor: " << menor << endl;
+cout << "Maior repetição: " << maior << endl;
+cout << "Menor repetição: " << menor << endl;
+cout << endl;
 
 for (int i = 0; i < 20; i++)
 {
-    if (verif[i] == maior)
-    {
-        cout << "O(s) numero que mais se repete(m) é(são): " << verif[i] << "--";
-        cout << endl;
+    if (totals[i] == maior){
+        cout << "O(s) numero que mais se repete(m) é(são): " << i + 1 << endl;
     }
-    if (verif[i] == menor)
-    {
-        cout << "O(s) numero que menos se repete(m) é(são): " << verif[i] << "--";
-        cout << endl;
-    }
+        if (totals[i] == menor){
+        cout << "O(s) numero que menos se repete(m) é(são): " << i + 1 << endl;
+        }
 }
-if(menor == 0){
-        cout << "O(s) numero que menos se repete(m) é(são): 0\n";  
-    }
-
+return 0;
 }
